@@ -232,6 +232,8 @@
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
+            this.MaximumSize = new System.Drawing.Size(828, 515);
+            this.MinimumSize = new System.Drawing.Size(828, 515);
             this.Name = "Form1";
             this.Text = "Snake";
             this.Paint += new System.Windows.Forms.PaintEventHandler(this.Form1_Paint);
