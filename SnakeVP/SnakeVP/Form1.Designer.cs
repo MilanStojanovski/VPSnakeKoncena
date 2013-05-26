@@ -70,7 +70,7 @@
             this.toolStripSeparator3,
             this.toolStripLabel7,
             this.toolStripLabel8});
-            this.toolStrip1.Location = new System.Drawing.Point(0, 451);
+            this.toolStrip1.Location = new System.Drawing.Point(0, 450);
             this.toolStrip1.Name = "toolStrip1";
             this.toolStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
             this.toolStrip1.Size = new System.Drawing.Size(812, 25);
@@ -228,12 +228,10 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(812, 476);
+            this.ClientSize = new System.Drawing.Size(812, 475);
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
-            this.MaximumSize = new System.Drawing.Size(828, 515);
-            this.MinimumSize = new System.Drawing.Size(828, 515);
             this.Name = "Form1";
             this.Text = "Snake";
             this.Paint += new System.Windows.Forms.PaintEventHandler(this.Form1_Paint);

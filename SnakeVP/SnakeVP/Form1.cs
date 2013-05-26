@@ -92,6 +92,9 @@ namespace SnakeVP
             timerSpec.Stop();
             timerSpec.Tick += timerSpec_Tick;
             toolStripLabel3.Text = secondsLeft.ToString();
+
+            this.MinimumSize = this.Size;
+            this.MaximumSize = this.Size;
         }
 
         void timerSpec_Tick(object sender, EventArgs e)
@@ -117,16 +120,16 @@ namespace SnakeVP
             coorX = x.Next(0,WIDTH);
             coorY = x.Next(1,HEIGHT);
            
-            /*while (foods[coorY][coorX] != false)
+            while (foods[coorY][coorX] != false)
             {
                 coorX = x.Next(0, WIDTH);
-                coorY = y.Next(1, HEIGHT);               
-            }*/
+                coorY = x.Next(1, HEIGHT);               
+            }
 
-            if (foods[coorY][coorX] == true)
+            /*if (foods[coorY][coorX] == true)
             {
                 GenerateFood();
-            }
+            }*/
 
             food.X = coorX;
             food.Y = coorY;
